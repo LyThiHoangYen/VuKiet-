@@ -66,6 +66,30 @@ ul#nav>li*5>a
                 <li><a href=""></a></li>
             </ul>
 5. chọn icon lên search themifi icon hoặc font awesomeicons
+6. tô đen + alt + mũi tên để di chuyển code lên hoặc xuống
+7. phần tử cấp độ inline không được chứa phần tử cấp độ block. Trong HTML có hai loại phần tử sử dụng với mục đích tổng quát, một phần tử cấp độ block là <div> và một phần tử cấp độ inline là <span>
+8. khi padding mà hình không đều như thế này thì sử dụng
+  - margin âm, left và right (thêm vào thẻ chứa)
+
+9. giao diện mà khi bấm vào mà hiện lên một giao diện mới rồi toàn bộ trang web bị phủ một lớp mờ mờ
+thì nó gọi là giao diện modal và lớp mờ mờ là lớp overplay 
+- dùng position=fixed thì sẽ tạo ra một giao diện nổi lên(ví dụ của cái này là cái bấm vào buy tickets)
+10.   <input type="text" class="modal-input" placeholder="Enter email...">
+  <!--placeholder: thuộc tính mới trong HTML5 dành cho thẻ <input> và <textarea>
+    Tác dụng của placeholder là cung cấp thêm thông tin cho người dùng, giúp họ biết cần nhập dữ liệu gì.-->
+11. Flex-box:
+  - để cho cái cục modal container nằm giữa thì ta dùng display flex ở tại cha 
+    display: flex;
+    align-items: center;/*giữa chiều cao*/
+    justify-content: center;/*nằm giữa chiều ngang của cha*/
+12. <label for="" class="modal-label">
+tác dụng của cái for là khi bấm vào label là focus vào cái form để người dùng nhập luôn
+input thì chỉ dùng với id trong for sẽ là id 
+vd:         <label for="quantity" class="modal-label">
+            <i class="ti-shopping-cart"></i>
+            Tickets, $15 per person
+            </label>
+            <input id="quantity" type="text" class="modal-input" placeholder="How many?">
 
 
 

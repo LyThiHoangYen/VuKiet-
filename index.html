@@ -6,8 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/img/Slider/Slider1.jpg">
 </head>
 <body>
+    <!--tên bự nhất có thể là wrapper, main, app-->
+
     <div id="main">
         <div id="header">
             <!--begin header nav-->
@@ -20,6 +23,7 @@
                     <a href="">
                         More
                         <!--i viết tắt icons-->
+                        <!--nav-arrow-dow để đặt tên để css -->
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
@@ -41,66 +45,185 @@
 
         </div>
         
+<!-----------------------------SLIDER-------------------------->
 
         <div id="slider">
-
+            <div class="text-content">
+                <h2 class="text-heading">Tình Nguyện Tháng</h2>
+                <div class="text-decription">Sơn tường tại trường khiếm thính</div>
+            </div>
         </div>
-
+<!-----------------------------CONTENT-------------------------->
         <div id="content">
-
-        </div>
-
-        <div id="footer">
-
-        </div>
-    </div>
-</body>
-</html>
-<!-- LÀM LẠI ĐỂ NHỚ -->
-<!--
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <!tên bự nhất có thể là wrapper, main, app
-    <div id="main">
-        <div id="header">
-            <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
-                <li>
-                    <a href="">More</a>
-                    <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div id="slider">
-
-        </div>
-
-    
-        <div id="content">
-
-        </div>   
+            <!--about-->
+            <div class="content-section">
+                <h2 class="section-heading">ĐỘI CÔNG TÁC XÃ HỘI</h2>
+                <P class="section-sub-heading">Cống Hiến Để Trưởng Thành</P>
+                <p class="about-text">Đến với Đội Công tác Xã hội UIT - với phương châm hoạt động “Cống hiến để trưởng thành” - ta sẽ có dịp được bắt gặp những con người năng động, nhiệt huyết và tràn đầy sức sống nhất, vẫn luôn cống hiến bản thân mình để giúp đỡ những mảnh đời khó khăn và qua đó mà trưởng thành nhiều hơn. Cùng mình khám phá xem những điều diệu kì mà đội đã mang đến cho cuộc sống này như thế nào nhé. Đại gia đình “siêu to khổng lồ” Mặc dù trước đó, đội được thành lập vào ngày 11/4/2009 bởi các anh chị khoa Khoa học máy tính với mục đích ban đầu là tạo ra một chỗ cho các anh chị có chỗ sinh hoạt, nhưng nhờ sự cống hiến hết mình của tất cả thành viên trong đội mà dần dần từ một gia đình nhỏ đáng yêu ấy đã phát triển lên thành một đại gia đình “siêu to khổng lồ” cực kỳ ấm cúng với vô số hoạt động khác nhau.</p>
             
+            <div class="member-list">
+                <div class="member-item">
+                    <p class="member-name">HoangYen</p>
+                    <img src="/f8-lithuyet/web-theband/assets/img/band/member2.jpg" alt="HY" class="member-img">
+                </div>
+                <div class="member-item">
+                    <p class="member-name">HoangYen</p>
+                    <img src="/f8-lithuyet/web-theband/assets/img/band/member2.jpg" alt="HY" class="member-img">
+                </div>
+                <div class="member-item">
+                    <p class="member-name">HoangYen</p>
+                    <img src="/f8-lithuyet/web-theband/assets/img/band/member2.jpg" alt="HY" class="member-img">
+                </div>
 
+                <div class="clear"></div>  
+            </div>
+            
+            </div>
+
+
+
+
+            <!--tour-->
+            <div class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <P class="section-sub-heading text-white">Cống Hiến Để Trưởng Thành</P>
+                
+                    <!--tickets-->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">sold out</span></li>
+                        <li>October <span class="sold-out">sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>       
+                     
+
+                    <!--places-->
+                    <div class="places-list">
+                        <div class="places-item">
+                            <img src="/f8-lithuyet/web-theband/assets/img/place/place4.jpg" alt="Đăk Nông" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Đăk Nông</h3>
+                                <p class="place-time">Fri 27 Nov 2024</p>
+                                <p class="place-desc">Chiến dịch tình nguyện Mùa Đông Yêu Thương.</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button> <!--# là nó k đi đâu hết mà ở tại trang này luôn-->                               
+                            </div>
+                        </div>
+
+                        <div class="places-item">
+                            <img src="/f8-lithuyet/web-theband/assets/img/place/place5.jpg" alt="Bình Chánh" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Bình Chánh</h3>
+                                <p class="place-time">Fri 27 Nov 2024</p>
+                                <p class="place-desc">Chiến dịch tình nguyện Mùa Hè Xanh</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button> <!--# là nó k đi đâu hết mà ở tại trang này luôn-->                               
+                            </div>
+                        </div>
+
+                        <div class="places-item">
+                            <img src="/f8-lithuyet/web-theband/assets/img/place/place6.jpg" alt="TP HCM" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">TP HCM</h3>
+                                <p class="place-time">Fri 27 Nov 2024</p>
+                                <p class="place-desc">Tình Nguyện tháng Trung Thu Cho Em</p>
+                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button> <!--# là nó k đi đâu hết mà ở tại trang này luôn-->                               
+                            </div>
+                        </div>
+
+                    <div class="clear"></div> <!--để thẻ to to ôm hết tất cả-->
+
+                    </div>
+
+                </div>  
+
+
+
+            </div>
+
+            <!--contact-->
+            <div class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <P class="section-sub-heading">Cống Hiến Để Trưởng Thành</P>
+            </div>  
+                        
+            <!--image-->
+ 
+        </div>
+<!-----------------------------FOOTER-------------------------->
         <div id="footer">
-
         </div>
     </div>
+
+<!--tạo giao diện buy tickets nổi lên-->
+<div class="modal js-modal"> <!--phủ toàn bộ trình duyệt-->
+    <div class="modal-container js-modal-container ">
+        <div class="modal-close js-modal-close">
+            <i class="ti-close"></i>
+        </div>
+        <!--header-->
+        <header class="modal-header">
+            <i class="modal-heading-icon ti-bag"></i>
+            Tickets
+        </header>
+        <!--body-->
+        <div class="modal-body">
+            <label for="tickets-quantity" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            </label>
+            <input id="tickets-quantity" type="text" class="modal-input" placeholder="How many?">
+
+            <label for="tickets-email" class="modal-label">
+                <i class="ti-user"></i>
+                Sent to
+            </label>
+            <input id="tickets-email" type="email" class="modal-input" placeholder="Enter email...">
+            <!--thuộc tính mới trong HTML5 dành cho thẻ <input> và <textarea>
+                Tác dụng của placeholder là cung cấp thêm thông tin cho người dùng, giúp họ biết cần nhập dữ liệu gì.-->
+             <button id="buy-tickets">
+                Pay
+                <i class="ti-check"></i>
+             </button>   
+        </div>
+        <!--footer-->
+
+        <footer class="modal-footer">
+            <p class="modal-help">Need <a href="">help?</a></p>
+        </footer>   
+    </div>
+</div>
+<!--viết js nhấn nút buy ticket-->
+<script>
+    const buyBtns = document.querySelectorAll('.js-buy-ticket')/*3 nút có tên là js bây h có tên là buyBtns*/
+    const modal = document.querySelector('.js-modal')
+    const modalContainer = document.querySelector('.js-modal-container')
+    const modalClose = document.querySelector('.js-modal-close')
+    /*hàm làm hàm bật lên modal mua vé(thêm class open vào modal)*/
+    function showBuyTickets(){
+        modal.classList.add('open')/*classList quản lí danh sách add thêm class vào modal*/
+    }
+    /*hàm làm tắt modal mua vé(gỡ bỏ class open của modal)*/
+
+    function hideBuyTickets(){
+        modal.classList.remove('open')
+    }
+
+    /*lặp qua từng thẻ button và nghe hành vi click*/
+    for(const buyBtn of buyBtns)
+    {
+        buyBtn.addEventListener('click',showBuyTickets)
+    }
+    //nghe hành vi click vào nút botton close 
+    modalClose.addEventListener('click', hideBuyTickets)
+
+    modal.addEventListener('click', hideBuyTickets)
+    
+    modalContainer.addEventListener('click', function(event){
+        event.stopPropagation()
+        //ngừng việc nổi bọt dùng để tránh việc click vào modal cũng bị đóng
+    })
+</script>
+
 </body>
 </html>
--->
+
+   
